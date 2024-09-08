@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+}
+
+.baslik{
+    color: rgb(197, 28, 93);
+    font-size: 50px;
+}
+
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu{
+    list-style: none;
+    display: block;
+}
+
+section{
+    text-align: center;
+}
+
+.ikincibaslik{
+    text-align: center;
+    color: rgb(197, 28, 93);
+}
+
+#alt{
+    color: rgb(189, 148, 15);
+}
+
+h4{
+    color: rgb(189, 148, 15);
+}

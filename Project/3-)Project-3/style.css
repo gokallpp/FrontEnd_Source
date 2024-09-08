@@ -1,0 +1,115 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.srch{
+    width: 3px;
+    float: left;
+    margin-left: 980px;
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn{
+    width: 90px;
+    height: 40px;
+    background: rgb(31, 112, 35);
+    margin-top: 13px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+    width: 100%;
+	display: block;
+}
+
+label,
+input[type="submit"] {
+	display: block;
+}
+
+/* div styles */
+div {
+	color: red;
+	border: 3px solid red;
+	background-color: rgb(236, 189, 189);
+}
+
+div, nav, header,main, article, aside, section, footer {
+ margin: 10px;
+ padding: 10px;
+ box-sizing: border-box;
+}
+nav {
+	color: green;
+	border: 5px solid rgb(47, 146, 27);
+	background-color: palegreen;
+	
+}
+
+header {
+	color: goldenrod;
+	border: 3px solid rgb(145, 113, 34);
+	background-color: khaki;
+}
+
+main {
+	color: blue;
+	background-color: cornflowerblue;
+	border: 3px solid blue;
+ padding: 0;
+ display: flex;
+}
+
+article, aside {
+ color: rgb(247, 230, 230);
+	background-color: cornflowerblue;
+	border: 3px solid blue;
+}
+
+article {
+ width: 100%;
+}
+
+aside {
+ width: 30%;
+}
+
+section {
+ color: black;
+	border: 2px solid #B53471;
+    background: url(ihracat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+	color: rgb(255, 86, 16);
+	border: 3px solid rgb(255, 86, 16);
+	background-color: rgb(37, 30, 15);
+}

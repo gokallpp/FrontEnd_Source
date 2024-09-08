@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo h3{
+    float: left;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(96, 95, 95);
+
+}
+
+.navbar{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+.navbar{
+    float: right;
+    margin-left: 50px;
+    margin-top: 20px; 
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none ;
+    display:inline-block;
+    margin: 0 10px;
+    line-height: .4s;
+
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-family:'Courier New', Courier, monospace;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: palegoldenrod;
+    border-radius: 10px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+.center h2{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 800px;
+    text-align: right;
+}
+
+p{
+    font-size: 25px;
+    text-align:end;
+    height: 30px;
+}
+
+.button  button:hover{
+    background: gray;
+}
+
+.button button{
+    float: right;
+    margin-top: 80px;
+
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(237, 228, 123);
+    border: solid 3px white;
+    border-radius: 20px;
+}
+
+
+.social-media a{
+    float: right;
+}
+
+
+.social-media img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+    float: right;
+
+}
+
+

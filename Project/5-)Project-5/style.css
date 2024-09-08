@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    background: #263aad;
+}
+
+
+.section{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section1 {
+    background-image: url(araç/hongkong.jpg);
+}
+
+#section2 {
+    background-image: url(araç/japan.jpg);
+}
+
+#section3 {
+    background-image: url(araç/mountains.jpg);
+}
+
+h1{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 48px;
+    color:antiquewhite;
+    margin: 0;
+}

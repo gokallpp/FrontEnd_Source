@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katılımcı Bilgi Formu</title>
+    <style>
+        body {
+            background-color: #3a3232;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #555;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="checkbox"], input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Katılımcı Bilgi Formu   </h1>
+    </center>
+    <form action="div_1.html" method="get">
+        <label for="ad">ADINIZ:</label>
+        <input type="text" name="ad" id="ad" placeholder="Adınızı giriniz:" minlength="3" maxlength="30" autofocus>
+
+        <label for="soyad">SOYADINIZ:</label>
+        <input type="text" name="soyad" id="soyad" placeholder="Soyadınızı giriniz:">
+
+        <label for="dtar">DOĞUM TARİHİ:</label>
+        <input type="date" name="dtar" id="dtar" value="2000-01-01" min="1930-01-01" max="2005-12-31">
+
+        <label for="egitim">EĞİTİM BİLGİSİ:</label>
+        <select name="egitim" id="egitim">
+            <option value="lise">LİSE</option>
+            <option value="universite">ÜNİVERSİTE</option>
+            <option value="lisans">LİSANS</option>
+            <option value="yuksek_lisans">YÜKSEK LİSANS</option>
+        </select>
+
+        <label>YABANCI DİL BİLGİSİ:</label>
+        <input type="checkbox" name="dil" value="ing"> İNGİLİZCE
+        <input type="checkbox" name="dil" value="alm"> ALMANCA
+        <input type="checkbox" name="dil" value="frs"> FRANSIZCA
+
+        <label for="tarsaat">TARİH SAAT:</label>
+        <input type="datetime-local" name="tarsaat" id="tarsaat">
+
+        <label for="parola">PAROLANIZ:</label>
+        <input type="password" name="parola" id="parola">
+
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>

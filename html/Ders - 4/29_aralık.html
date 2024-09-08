@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        background-color: #3a3232;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <center>
+    <form action="div_1.html" method="get">
+    ADININZ: <input type="text" name="ad" placeholder="adınızı giriniz:" minlength="3" maxlength="3" autofocus> <br>
+    SOYADINIZ: <input type="text" name="ad" placeholder="soyadınızı giriniz:"> <br>
+    DOĞUM TARİHİ: <input type="date" name="dtar" value="2023-10-29" min="2023-01-01" max="2023-12-31"> <br>
+
+    
+    DOĞUM YERİ: <select name="dyer" id="">
+    <option value="52"> ORDU </option>
+    <option value="34" selected> İSTANBUL </option>
+    <option value="63"> ŞANLIURFA </option>
+    <option value="61"> TRABZON </option> 
+    </select> 
+    <br>
+    <br>
+    EGİTİM BİLGİSİ: 
+    <input type="radio" name="okul" value="lise" checked> LİSE
+    <input type="radio" name="okul" value="ön_lisans"> ÖN LİSANS
+    <input type="radio" name="okul" value="lisans"> LİSANS
+    <input type="radio" name="okul" value="yüksek_lisans"> YÜKSEK LİSANS
+    <br>
+    <br>
+    YABANCI DİL BİLGİSİ:
+    <input type="checkbox" name="dil"> İNGİLİZCE
+    <input type="checkbox" name="dil" value="alm" checked> ALMANCA
+    <input type="checkbox" name="dil" value="rus"> RUSCA
+    <input type="checkbox" name="dil" value="frs"> FRANSIZCA
+    <br>
+    <br>
+    DOĞUM YILINIZ:
+    <input type="number" name="dyıl" min="1930" max="2023" value="2002">
+    TARİH SAAT:
+    <input type="datetime-local" name="tarsaat">
+    <br>
+    <br>
+    PAROLANIZ:
+    <input type="password" name="parola" id=""><br>
+    AY:
+    <input type="month" name="ay" id=""> <br>
+    HAFTA:
+    <input type="week" name="hafta" id=""> <br>
+    SAAT:
+    <input tytpe="time" name="saat" id=""> <br>
+    RENK:
+    <input type="color" name="renk" id=""> <br>
+    ADRES:
+    <textarea name="adres" id="" rows="8" cols="60"></textarea><br>
+    <select multiple name="MANAV" id="">
+    <optgroup label="MEYVELER"> 
+    <option>ELMA</option>
+    <option>ARMUT</option>
+    <option>MUZ</option>
+    </optgroup>
+    <optgroup label="SEBZELER"> 
+        <option>ISPANAK</option>
+        <option>LAHANA</option>
+        <option>BROKOLİ</option>
+        </optgroup>
+
+    </select>
+
+</center>
+    
+</form>
+
+</body>
+</html>

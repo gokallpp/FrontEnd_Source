@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: center;
+            background-color: aquamarine;
+            width: 100%;
+            height: 520px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2>Formu Doldurunuz</h2>
+        <form action=https://github.com/ method="get">
+
+        <b>Ad:</b>  <input type="text" placeholder="Ad" required autofocus>  <br>
+
+        Soyad: <input type="text"placeholder="Soyad" required> <br>
+
+        Doğum Yılı: <input type="number" name="yıl" min="2000" max="2024" value="2000"> <br>
+
+        Doğum Tarihi: <input type="date" name="date" value="2024-06-20" min="01-01-2024" max="31-12-2024"> <br>
+
+        Telefon: <input type="text" " placeholder="Telefon"  minlength="11" maxlength="11" required><br>
+
+        E-Posta: <input type="email" placeholder="E-Posta" required> <br> <br>
+
+        <b>Eğitim:</b> 
+            <select >
+
+            <option> İlk okul </option>
+            <option selected> Lise </option>
+            <option> Lisans </option>
+
+            </select> <br><br>
+
+        <b>Dil:</b> 
+            <input type="checkbox" > İngilizce
+            <input type="checkbox" name="dil" value="frs"> Fransızca
+            <input type="checkbox" name="dil" value="alm"> Almanca  <br> <br>
+         
+        <b>Cinsiyet:</b> 
+            <input type="radio" value="Erkek" name="cinsiyet" >erkek
+            
+
+            <input type="radio" value="Kadin" name="cinsiyet" >
+            <label>Kadın</label> <br> <br>
+
+
+        Mesaj: <textarea cols="40" rows="10"></textarea>  <br> <br>
+
+          <input type="submit" value="Gönder">
+
+        </form>
+
+        
+    </div>
+    
+</body>
+</html>

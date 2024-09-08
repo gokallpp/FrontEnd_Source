@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+
+<style>
+    
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background:  #34495e ;
+  padding: 0 10px;
+}
+.paket{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.paket .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #34495e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.paket .form .giriş {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.paket .form .giriş  label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.paket .form .giriş  .input,
+.paket .form .giriş  .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 15px;
+
+}
+
+.paket .form .giriş  .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+  border-radius: 15px;
+}
+
+.paket .form .giriş  .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+} .form .giriş  .secim{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.paket .form .giriş  .secim select{
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 40px;
+}
+
+
+.paket .form .giriş  p{
+   font-size: 14px;
+   color: #757575;
+}
+
+.paket .form .giriş  .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.paket .form .giriş  .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.paket .form .giriş  .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #34495e;
+  display: block;
+  position: relative;
+}
+
+.paket .form .giriş  .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #34495e;
+}
+
+.paket .form .giriş  .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #34495e;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+    <div class="paket" >
+
+        <div class="title">
+           <h2><b>KAYIT FORMU</b></h2>
+        </div>
+
+        <div class="form">
+
+           <div class="giriş ">
+              <label>Adı:</label>
+              <input type="text" class="input">
+           </div>  
+
+            <div class="giriş ">
+              <label>Soyadı:</label>
+              <input type="text" class="input">
+           </div> 
+
+           <div class="giriş ">
+              <label>Parola:</label>
+              <input type="password" class="input">
+           </div>  
+
+        
+            <div class="giriş ">
+              <label>Cinsiyet:</label>
+              <div class="secim">
+                <select>
+                  <option value="">Seç</option>
+                  <option value="male">Erkek</option>
+                  <option value="female">Kız</option>
+                </select>
+              </div>
+           </div> 
+
+            <div class="giriş ">
+              <label>E-Posta:</label>
+              <input type="text" class="input">
+           </div> 
+
+          <div class="giriş ">
+              <label>Telefon Numarası:</label>
+              <input type="text" class="input">
+           </div> 
+
+          <div class="giriş ">
+              <label>Adres:</label>
+              <textarea class="textarea"></textarea>
+           </div> 
+
+          <div class="giriş ">
+              <label>Posta Kodu:</label>
+              <input type="text" class="input">
+           </div> 
+
+          <div class="giriş  terimleri">
+              <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Şartlar ve Koşullar Kabul Edildi.</p>
+           </div> 
+
+          <div class="giriş ">
+            <input type="submit" value="Kayıt Ol" class="btn">
+          </div>
+        </div>
+
+    </div>	
+
+    
+</body>
+</html>

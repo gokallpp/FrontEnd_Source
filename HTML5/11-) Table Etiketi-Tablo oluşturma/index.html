@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table - colspan - rowspan</title>
+</head>
+<body>
+    
+    <table border="4" style="width: 60%; height: 200px;">
+
+        <thead>
+            <tr>
+                <th>SIRA</th>
+                <th>KİTAP ADI</th>
+                <th>YAZAR</th>
+                <th>YAYINEVİ</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Görmek</td>
+                <td>Jose SARAMAGO</td>
+                <td>Kırmızıkedi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kağıt Ev</td>
+                <td>Carlos Maria DOMİNGUEZ</td>
+                <td>Jaguar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1984</td>
+                <td>George ORWELL</td>
+                <td>Can Yayınları</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kuyucaklı Yusuf</td>
+                <td>Sabahattin ALİ</td>
+                <td>Yapı Kredi Yayınları</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Körlük</td>
+                <td>Jose SARAMAGO</td>
+                <td>Kırmızıkedi</td>
+            </tr>
+
+
+
+        </tbody>
+
+    </table>
+
+    <br>
+<h4>COLSPAN</h4>    Hücreleri Birleştirme 
+<table border="2">
+
+    <thead>
+        <tr>
+            <th>KIRMIZI</th>
+            <th colspan="2">MAVİ - YEŞİL</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <td style="height: 30px;" bgcolor="red"> </td>
+            <td style="height: 30px;" bgcolor="blue"> </td>
+            <td style="height: 30px;" bgcolor="green"> </td>
+        </tr>
+        
+
+    </tbody>
+</table>
+
+<br>
+<h3>ROWSPAN</h3> sütunları birleştirme
+<table border="2">
+
+    <thead>
+        <tr>
+            <th>KIRMIZI</th>
+            <th>MAVİ</th>
+            <th>Yeşil</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <td style="height: 30px;" bgcolor="red"> </td>
+            <td style="height: 30px;" bgcolor="blue"> </td>
+            <td rowspan="2" style="height: 30px;" bgcolor="green"> </td>
+        </tr>
+        
+        <tr>
+            <td>Kalem</td>
+            <td>Gökyüzü</td>
+
+
+        </tr>
+
+    </tbody>
+</table>
+
+<br>
+<br>
+
+    <table border="1">
+            <thead>
+                <tr>
+                    <th>KIRMIZI</th>
+                    <th>YEŞİL</th>
+                </tr>
+
+
+            </thead>
+
+
+
+            <tbody>
+                <tr>
+                    <td colspan="2" bgcolor="red" style="height: 50px;"></td>
+
+                </tr>
+                <tr>
+                    <td bgcolor="red" style="height: 50px;"> </td>
+                    <td rowspan="2" bgcolor="green" style="height: 50px;"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="red" style="height: 50px;"></td>
+                </tr>
+
+
+            </tbody>
+
+
+    </table>
+
+
+
+
+
+</body>
+</html>
